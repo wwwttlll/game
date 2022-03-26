@@ -39,7 +39,7 @@ void dfs(int x,int y){
 int main(){
     srand(time(0));
     //freopen("maze.txt","w",stdout);
-    puts("�������Թ��߳�n��"); 
+    puts("please input the size of the maze"); 
     cin >> n;
     for (int i = 0; i < n; i++){
 		mp[i][0] = 1;
